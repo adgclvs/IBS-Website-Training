@@ -7,12 +7,14 @@ const Navbar = () => {
   return (
     <div className="navbar">
       <div className="logo">
-        <img src="/Assets/pic/Logo-indigo.png" alt="Logo IBS" />
+        <NavLink to="/" className={(nav) => (nav.isActive ? "nav-active" : "")}>
+          <img src="/Assets/pic/Logo-indigo.png" alt="Logo IBS" />
+        </NavLink>
       </div>
       <div className="content">
         <div className="pages">
           <ul>
-            <NavLink to="/" className={(nav) => (nav.isActive ? "nav-active" : "")}>
+            <NavLink to="/blockchain" className={(nav) => (nav.isActive ? "nav-active" : "")}>
               <li>BLOCKCHAIN & CRYPTOS</li>
             </NavLink>
             <NavLink to="/diplomes" className={(nav) => (nav.isActive ? "nav-active" : "")}>

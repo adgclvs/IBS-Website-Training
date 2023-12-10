@@ -1,12 +1,12 @@
 import React from "react";
 import Navbar from "../Components/Navbar";
 
-const Page_1 = () => {
+const Admission_page = () => {
   return (
-    <div className="page_1">
+    <div className="admission_page">
       <Navbar />
     </div>
   );
 };
 
-export default Page_1;
+export default Admission_page;
