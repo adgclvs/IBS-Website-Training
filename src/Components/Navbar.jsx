@@ -11,7 +11,7 @@ const Navbar = () => {
           <img src="/Assets/pic/Logo-indigo.png" alt="Logo IBS" />
         </NavLink>
       </div>
-      <div className="content">
+      <div className="nav_content">
         <div className="pages">
           <ul>
             <NavLink to="/blockchain" className={(nav) => (nav.isActive ? "nav-active" : "")}>

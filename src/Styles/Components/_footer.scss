@@ -1,5 +1,4 @@
 .footer {
-  background-color: red;
   position: absolute;
   bottom: 0;
   left: 0;
@@ -11,20 +10,20 @@
   .left{
     width: 65%;
     height: 100%;
-    background-color: rgb(40,9,141);
-    color: white;
+    background-color: var(--color-1);
+    color: var(--color-5);
     display: flex;
     align-items: center;
     justify-content: center;
 
     a{
-      color: rgb(255,4,218);
+      color: var(--color-2);
     }
   }
 
   .right{
     width: 35%;
-    background-color: rgb(212,16,221);
+    background-color: var(--color-2);
     ul {
       display: flex;
       height: 100%;
@@ -34,7 +33,7 @@
       li{
         height: 50px;
         width: 50px;
-        background-color: rgb(40,9,141);
+        background-color: var(--color-1);
         border-radius: 50px;
         margin: 10px;
 

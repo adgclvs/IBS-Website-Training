@@ -1,0 +1,25 @@
+.blockchain-page {
+
+  .content{
+    padding-top: var(--padding-top-navbar);
+    margin: 0 20vw ;
+
+    .first-part{
+
+      .title{
+        text-align: center;
+        margin: 4rem;
+        font-size: larger;
+        color: var(--color-3);
+      }
+
+      .explanation {
+
+        h1{
+          font-size: 34px;
+          color: var(--color-3);
+        }
+      }
+    }
+  }
+}
